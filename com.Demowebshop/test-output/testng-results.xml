@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="9" total="15" passed="6" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Server connected successfully]]>
+    </line>
+    <line>
+      <![CDATA[Database connected successfully]]>
+    </line>
+    <line>
+      <![CDATA[Launching chrome successfully]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Launching chrome successfully]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed successfully]]>
+    </line>
+    <line>
+      <![CDATA[database closed sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[server closed successfully]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-12-05T05:23:37Z" name="Suite" finished-at="2024-12-05T05:24:13Z" duration-ms="36601">
+    <groups>
+      <group name="ST">
+        <method signature="InvalidLoginTest.invalidLogin(java.lang.String, java.lang.String)[pri:0, instance:com.Demowebshop.tescripts.InvalidLoginTest@172b013]" name="invalidLogin" class="com.Demowebshop.tescripts.InvalidLoginTest"/>
+      </group> <!-- ST -->
+      <group name="FT">
+        <method signature="LoginTest.login()[pri:0, instance:com.Demowebshop.tescripts.LoginTest@70f02c32]" name="login" class="com.Demowebshop.tescripts.LoginTest"/>
+      </group> <!-- FT -->
+    </groups>
+    <test started-at="2024-12-05T05:23:37Z" name="Test" finished-at="2024-12-05T05:24:13Z" duration-ms="36601">
+      <class name="com.Demowebshop.tescripts.LoginTest">
+        <test-method is-config="true" signature="toLaunchBrowser(java.lang.String)[pri:0, instance:com.Demowebshop.tescripts.LoginTest@70f02c32]" started-at="2024-12-05T05:23:57Z" name="toLaunchBrowser" finished-at="2024-12-05T05:24:11Z" duration-ms="13784" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Launching chrome successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- toLaunchBrowser -->
+        <test-method signature="login()[pri:0, instance:com.Demowebshop.tescripts.LoginTest@70f02c32]" started-at="2024-12-05T05:24:11Z" name="login" finished-at="2024-12-05T05:24:13Z" duration-ms="1741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="toCloseBrowser()[pri:0, instance:com.Demowebshop.tescripts.LoginTest@70f02c32]" started-at="2024-12-05T05:24:13Z" name="toCloseBrowser" finished-at="2024-12-05T05:24:13Z" duration-ms="286" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser closed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- toCloseBrowser -->
+      </class> <!-- com.Demowebshop.tescripts.LoginTest -->
+      <class name="com.Demowebshop.tescripts.InvalidLoginTest">
+        <test-method is-config="true" signature="toCloseServer()[pri:0, instance:com.Demowebshop.tescripts.InvalidLoginTest@172b013]" started-at="2024-12-05T05:23:37Z" name="toCloseServer" finished-at="2024-12-05T05:23:37Z" duration-ms="22" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Server connected successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- toCloseServer -->
+        <test-method is-config="true" signature="toConnectDatabase()[pri:0, instance:com.Demowebshop.tescripts.InvalidLoginTest@172b013]" started-at="2024-12-05T05:23:37Z" name="toConnectDatabase" finished-at="2024-12-05T05:23:37Z" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Database connected successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- toConnectDatabase -->
+        <test-method is-config="true" signature="toLaunchBrowser(java.lang.String)[pri:0, instance:com.Demowebshop.tescripts.InvalidLoginTest@172b013]" started-at="2024-12-05T05:23:37Z" name="toLaunchBrowser" finished-at="2024-12-05T05:23:45Z" duration-ms="8181" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Launching chrome successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- toLaunchBrowser -->
+        <test-method signature="invalidLogin(java.lang.String, java.lang.String)[pri:0, instance:com.Demowebshop.tescripts.InvalidLoginTest@172b013]" started-at="2024-12-05T05:23:46Z" name="invalidLogin" data-provider="TestData" finished-at="2024-12-05T05:23:49Z" duration-ms="3338" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rahul@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[rahul123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method signature="invalidLogin(java.lang.String, java.lang.String)[pri:0, instance:com.Demowebshop.tescripts.InvalidLoginTest@172b013]" started-at="2024-12-05T05:23:49Z" name="invalidLogin" data-provider="TestData" finished-at="2024-12-05T05:23:51Z" duration-ms="2067" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shambhavi@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[shambhvi123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method signature="invalidLogin(java.lang.String, java.lang.String)[pri:0, instance:com.Demowebshop.tescripts.InvalidLoginTest@172b013]" started-at="2024-12-05T05:23:51Z" name="invalidLogin" data-provider="TestData" finished-at="2024-12-05T05:23:53Z" duration-ms="1827" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jai@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jai123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method signature="invalidLogin(java.lang.String, java.lang.String)[pri:0, instance:com.Demowebshop.tescripts.InvalidLoginTest@172b013]" started-at="2024-12-05T05:23:53Z" name="invalidLogin" data-provider="TestData" finished-at="2024-12-05T05:23:56Z" duration-ms="2593" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ajay@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ajay123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method signature="invalidLogin(java.lang.String, java.lang.String)[pri:0, instance:com.Demowebshop.tescripts.InvalidLoginTest@172b013]" started-at="2024-12-05T05:23:56Z" name="invalidLogin" data-provider="TestData" finished-at="2024-12-05T05:23:57Z" duration-ms="1574" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sourav@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sourav123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method is-config="true" signature="toCloseBrowser()[pri:0, instance:com.Demowebshop.tescripts.InvalidLoginTest@172b013]" started-at="2024-12-05T05:23:57Z" name="toCloseBrowser" finished-at="2024-12-05T05:23:57Z" duration-ms="253" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser closed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- toCloseBrowser -->
+        <test-method is-config="true" signature="toCloseDatabase()[pri:0, instance:com.Demowebshop.tescripts.InvalidLoginTest@172b013]" started-at="2024-12-05T05:24:13Z" name="toCloseDatabase" finished-at="2024-12-05T05:24:13Z" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[database closed sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- toCloseDatabase -->
+        <test-method is-config="true" signature="toConnectServer()[pri:0, instance:com.Demowebshop.tescripts.InvalidLoginTest@172b013]" started-at="2024-12-05T05:24:13Z" name="toConnectServer" finished-at="2024-12-05T05:24:13Z" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[server closed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- toConnectServer -->
+      </class> <!-- com.Demowebshop.tescripts.InvalidLoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
