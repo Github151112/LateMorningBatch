@@ -19,6 +19,14 @@ public class SigninPage extends BaseClass {
 	
 	@FindBy(xpath ="//input[@value='Log in']")
 	private WebElement loginButton;
+	
+	
+	@FindBy(xpath ="//a[text()='Log out']")
+	private WebElement logoutLink;
+
+	public WebElement getLogoutLink() {
+		return logoutLink;
+	}
 
 	public WebElement getEmailTextField() {
 		return emailTextField;

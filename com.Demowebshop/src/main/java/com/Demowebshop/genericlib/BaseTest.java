@@ -24,6 +24,7 @@ import org.testng.annotations.Parameters;
 public class BaseTest implements IAutoConstant {
 
 	public WebDriver driver;
+	public static WebDriver sdriver;
 
 	@AfterSuite(alwaysRun = true)
 	public void toConnectServer() {
@@ -50,6 +51,7 @@ public class BaseTest implements IAutoConstant {
 			driver = new EdgeDriver();
 		else
 			Reporter.log("Invalid Browser");
+		sdriver = driver;
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(TIMESECONDS));
 		driver.get(url);
